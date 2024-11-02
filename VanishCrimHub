@@ -3116,12 +3116,3 @@ player.CharacterAdded:Connect(function()
     -- Call the function to teleport the player when they respawn
     teleportInFrontAndAboveNearestMeshPart()
 end)
-
-local Tab = Window:CreateTab("Credits", nil) -- Title, Image
-local CreditsSection = Tab:CreateSection("Credits")
-local CreditsButton = Tab:CreateButton({
-   Name = "Discord server",
-   Callback = function()
-   setclipboard("https://discord.gg/NNSggZ67GZ")14
-   end,
-})
