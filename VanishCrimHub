@@ -3117,7 +3117,6 @@ player.CharacterAdded:Connect(function()
     teleportInFrontAndAboveNearestMeshPart()
 end)
 
--- Credits
 local Tab = Window:CreateTab("Credits", nil) -- Title, Image
 local CreditsSection = Tab:CreateSection("Credits")
 local CreditsButton = Tab:CreateButton({
